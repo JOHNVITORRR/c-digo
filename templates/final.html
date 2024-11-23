@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="{{url_for('pagina_inicial')}}">Inicio</a>
+        <a href="{{url_for('segunda_pagina')}}">Contato</a>
+        <a href="{{url_for('terceira_pagina')}}">Final</a>
+    </nav>
+    <div>
+        <p>Mensagem enviada com sucesso!</p>
+    </div>
+    <a href="{{url_for('pagina_inicial')}}"><button>Voltar para o inicio</button></a>
+</body>
+</html>
